@@ -1,7 +1,6 @@
-# Site for the Mood
-### [romabiker.github.io](http://romabiker.github.io)
+# Site of Real Estate Agency
 
-Laughter prolongs life and recharges our batteries. The site is created based on the comedy series, Doctor Who. It may seem incomprehensible to those who are not initiated. Well, fans of the series, it should cheer up.
+[TODO. There will be project description]
 
 # Project Goals
 
