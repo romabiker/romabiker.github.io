@@ -3,10 +3,8 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Doctor ordered</title>
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+        <title>Твой Дом</title>
+        
 
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/stylish-portfolio.css" rel="stylesheet">
@@ -14,6 +12,8 @@
         <!-- Custom Fonts -->
         <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -55,8 +55,8 @@
         <!-- Header -->
         <header id="top" class="header">
             <div class="text-vertical-center">
-                <div style="margin: 0; padding: 0; font-size: 4.5em; font-weight: 700;">Твой Дом</div>
-                <div style="margin-top: 20;margin-bottom: 10;font-weight: 500; font-size: 24">Агентство недвижимости</div>
+                <h1>Твой Дом</h1>
+                <div id="text-header">Агентство недвижимости</div> 
                 <br>
                 <a href="#about" class="btn btn-dark btn-lg">Узнать больше >></a>
             </div>
@@ -146,20 +146,20 @@
 
         <!-- Map -->
         <section id="office-place">
-          <div id="map" class="map" style="width: 100%; height: 100%"></div>
+          <div id="map" class="map"></div>
 
 
           <div class="container">
             <div class="row text-center">
               <div class="col-lg-12">
-                <div style="font-size: 30; margin-top: 40; margin-bottom: 20;">Наш офис</div>
-                <img src="img/office_place.jpg" width="600" class="img-rounded center-block" alt="Узкая асфальтированная улица, вдоль правого края которой припаркована вереница легковых автомобилей. Слева по неширокому тратуару вдоль четырех этажного белого кирпичного старинного здания вдалеке идет в светлом пиджаке мужчина. На здании на высоте около 2-3 метров овальная табличка с номером '12', вывеска 'НОТАРИАЛЬНАЯ КОНТОРА'. Вход в здание под небольшим треугольным козырьком на уровне с тротуаром. Знак 'остановка запрещена' с уточняющей табличкой с двусторонней стрелкой также  на левой стороне дороги в уровень со вторым этажом здания. В конце улицы виднеются высокие деревья и 2-4 этажные старинные кирпичные постройки">
+                <h2>Наш офис</h2>
+                <img src="img/office_place.jpg" width="600" class="img-rounded center-block" alt="Узкая асфальтированная улица, вдоль правого края которой припаркована вереница легковых автомобилей. Слева по неширокому тротуару вдоль четырех этажного белого кирпичного старинного здания вдалеке идет в светлом пиджаке мужчина. На здании на высоте около 2-3 метров овальная табличка с номером '12', вывеска 'НОТАРИАЛЬНАЯ КОНТОРА'. Вход в здание под небольшим треугольным козырьком на уровне с тротуаром. Знак 'остановка запрещена' с уточняющей табличкой с двусторонней стрелкой также  на левой стороне дороги в уровень со вторым этажом здания. В конце улицы виднеются высокие деревья и 2-4 этажные старинные кирпичные постройки">
               </div>
             </div>
           </div>
         </section>
 
-
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
         <script type="text/javascript">
           ymaps.ready(init);
           function init(){
@@ -203,6 +203,10 @@
                 </div>
             </div>
         </footer>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        
 
 
         <!-- Custom Theme JavaScript -->
