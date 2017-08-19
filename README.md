@@ -4,7 +4,6 @@
 
 This is a landing page for the real estate agency "Твой дом". The site is made with the help of the bootstap, jquery, yandex maps.
 
- www.google.com/s2/favicons?domain=romabiker.github.io
 
 # Project Goals
 
